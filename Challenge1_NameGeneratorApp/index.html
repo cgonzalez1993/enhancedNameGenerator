@@ -1,0 +1,104 @@
+<!--
+Carlos Gonzalez
+01/05/2020
+Enhanced Name Generator
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Random Name Generator</title>
+</head>
+
+<body>
+    <body class="deepBlue1BG">
+        <div class="py-3 mb-2 cremeColour thiccBorder">
+            <div class="container">
+                <h1 class="thiccFont deepBlue3BG center">Random Name Generator</h1>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-12 center">
+                    <div class="card deepBlue4BG " style="width: 30rem; height: 24.5rem;">
+                        <img src="/images/codestack.jpg" class="card-img-top" alt="CodeStack Academy Logo">
+                        <div class="card-body">
+                            <h3 class="card-title white center">🙌 RNGesus 🙌</h3>
+                            <h5 id="displayName" class="mt-5">
+    
+                            </h5>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control placeHolderText" placeholder="Input a name"
+                                    aria-label="Names inputted by user" aria-describedby="Enter" id="inputNames">
+                            </div>
+                            <a id="getName" class="buttonText btn deepBlue2BG white center allBtn">Give Me A Random Name</a>
+                            <div class="row mt-3">
+                                <div class="col-5">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control placeHolderText" placeholder="# of People" aria-label="Splits list of names by number of people selected by user."
+                                            aria-describedby="Enter" id="numberOfPeople">
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <a id="numberPeople" class="buttonText btn deepBlue2BG white center allBtn">Generate # of people per Group</a>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control placeHolderText" placeholder="# of Groups" aria-label="Splits list os names by number of groups selected by user."
+                                            aria-describedby="Enter" id="numberOfGroups">
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <a id="groupNumber" class="buttonText btn deepBlue2BG white center allBtn">Generate # of Groups</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 center">
+                    <div id="outputNames" class="white mt-3 listFont">
+    
+                        <!--List Elements Go Here-->
+    
+                    </div>
+                </div>
+                <div class="col-6 center">
+                    <div id="outputGroups" class="white mt-3 listFont">
+                
+                        <!--List Elements Go Here-->
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src ="./js/script.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

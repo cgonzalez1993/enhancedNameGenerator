@@ -1,0 +1,58 @@
+.deepBlue1BG {
+    background-color: #00232A;
+}
+
+.deepBlue2BG {
+    background-color: #002C38;
+}
+
+.deepBlue3BG {
+    color: #003949;
+}
+
+.deepBlue4BG {
+    background-color: #00424D;
+}
+
+.cremeColour {
+    background-color: #FFFABF;
+}
+
+.thiccBorder {
+    border: 2px solid;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.white {
+    color: white;
+}
+
+.bleu {
+    color: #00232A;
+}
+
+.thiccFont {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.allBtn:hover {
+    border: 2px solid #FFFABF;
+    color: #FFFABF
+}
+
+.listFont {
+    font-size: 15px;
+}
+
+.placeHolderText{
+    font-size: 13px;;
+}
+
+.buttonText{
+    font-size: 13px;
+}
